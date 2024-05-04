@@ -24,4 +24,32 @@
 
 ### indices:
 
-`GET _cat/indices` - show list of all indexes that are in runtime
+`GET _cat/indices` - list all indices in runtime
+
+`GET [index_name]/_stats?pretty` - statistics of a particular indice
+
+`GET _cat/indices/[index_name]?v&pretty` - also output of a specific indice
+
+`GET _cat/shards` - output of all shards (supposedly a minimal entity)
+
+`GET [index_name]/_mapping?pretty` - check mapping for a specific indice
+
+`DELETE localhost:9200/[index_name]` - delete a specific indice
+
+### snapshots:
+
+`GET _snapshot?pretty` - show list of all snapshot dir with some pretty view
+
+`GET _snapshot/snapshots/_all?pretty` - display all known dir snapshots
+
+`GET _snapshot/snapshots/[snapshot_name]?pretty` - output the contents of a specific snapshot
+
+`GET _snapshot/snapshots/*?pretty&verbose=false` - same way to output snapshots, but not verbose mod
+
+### aliases:
+
+`GET _cat/aliases` - this output is much more convenient
+
+`GET _alias` - standard json output of an entity
+
+`DELETE [indice_name]/_alias/[alias_name]` - deleting the bound alias for indice
