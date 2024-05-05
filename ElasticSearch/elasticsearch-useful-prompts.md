@@ -26,15 +26,15 @@
 
 `GET _cat/indices` - list all indices in runtime
 
-`GET [index_name]/_stats?pretty` - statistics of a particular indice
+`GET /[index_name]/_stats?pretty` - statistics of a particular indice
 
 `GET _cat/indices/[index_name]?v&pretty` - also output of a specific indice
 
 `GET _cat/shards` - output of all shards (supposedly a minimal entity)
 
-`GET [index_name]/_mapping?pretty` - check mapping for a specific indice
+`GET /[index_name]/_mapping?pretty` - check mapping for a specific indice
 
-`DELETE localhost:9200/[index_name]` - delete a specific indice
+`DELETE /[index_name]` - delete a specific indice
 
 ### snapshots:
 
@@ -52,4 +52,4 @@
 
 `GET _alias` - standard json output of an entity
 
-`DELETE [indice_name]/_alias/[alias_name]` - deleting the bound alias for indice
+`DELETE /[indice_name]/_alias/[alias_name]` - deleting the bound alias for indice
