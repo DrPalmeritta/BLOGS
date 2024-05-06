@@ -10,8 +10,8 @@ I hope they will also be useful to you!
 
 ## ElasticSearch Topics:
 
-- [`ES` - Useful prompts for troubleshooting](#ElasticSearch/elasticsearch-useful-prompts.md)
+- `ES` - [Useful prompts for troubleshooting](#ElasticSearch/elasticsearch-useful-prompts.md)
 
 ## Useful-Tools Topics:
 
-- [`Pre-commit` - Autocheck CODE before commit](#Useful-Tools/pre-commit.md)
+- `Pre-commit` - [Autocheck CODE before commit](#Useful-Tools/pre-commit.md)
