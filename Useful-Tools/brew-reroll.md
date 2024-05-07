@@ -3,7 +3,7 @@
 Create a Brewfile with `brew bundle dump` prompt
 It will create a Brewfile in your current directory with such format:
 
-<img src="https://github.com/DrPalmeritta/BLOGS/blob/main/.screenshots/brewfile-example.png?raw=true" width="100">
+<img src="https://github.com/DrPalmeritta/BLOGS/blob/main/.screenshots/brewfile-example.png?raw=true" width="500">
 
 Store the file somewhere safe (flash drive for instance)
 
