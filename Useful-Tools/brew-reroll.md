@@ -11,10 +11,11 @@ Store the file somewhere safe (flash drive for instance)
 
 Once the instanse ready to run:
 
-Install Homebrew with `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"` from original [Brew](https://brew.sh/) source
+Install Homebrew with `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"` 
+from original [Brew](https://brew.sh/) source
 
 Copy the Brewfile back to the new instance
 
 Run `brew bundle install --file /path/to/Brewfile`
 
-### It will trigger the Brew on the new instance
+It will trigger the Brew on the new instance
