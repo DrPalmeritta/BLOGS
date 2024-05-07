@@ -11,7 +11,7 @@ Store the file somewhere safe (flash drive for instance)
 
 Once the instanse ready to run:
 
-Install Homebrew with `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"` 
+Install Homebrew with `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`<br />
 from original [Brew](https://brew.sh/) source
 
 Copy the Brewfile back to the new instance
