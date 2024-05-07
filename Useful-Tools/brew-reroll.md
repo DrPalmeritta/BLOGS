@@ -18,4 +18,4 @@ Copy the Brewfile back to the new instance
 
 Run `brew bundle install --file /path/to/Brewfile`
 
-It will trigger the Brew on the new instance
+It will trigger the Brew on the new instance 🎉
