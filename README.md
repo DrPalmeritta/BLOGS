@@ -14,4 +14,8 @@ I hope they will also be useful to you!
 
 ## Useful-Tools Topics:
 
-- `Pre-commit` - [Autocheck CODE before commit](#Useful-Tools/pre-commit.md)
+- `Brew reroll` - [Backup all soft and reroll on the new instance](#Useful-Tools/brew-reroll.md)
+
+## Useful-Utils Topics:
+
+- `Pre-commit` - [Autocheck CODE before commit](#Useful-Utils/pre-commit.md)
