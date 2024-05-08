@@ -19,3 +19,4 @@ I hope they will also be useful to you!
 ## Useful-Utils Topics:
 
 - `Pre-commit` - [Autocheck CODE before commit](#Useful-Utils/pre-commit.md)
+- `K8s-GPT` - [Kubernetes problem analizer based on GPT](#Useful-Utils/k8s-gpt.md)
