@@ -1,7 +1,5 @@
 # Kubernetes GPT Analyzer
 
-## Overview
-
 The Kubernetes GPT Analyzer is a tool designed to analyze Kubernetes configurations and provide insights using the power of the GPT (Generative Pre-trained Transformer) model. This tool helps Kubernetes administrators and developers understand, optimize, and troubleshoot their Kubernetes deployments more effectively.
 
 The original version of this tool is available on GitHub project [K8s-GPT](https://github.com/k8sgpt-ai/k8sgpt).
