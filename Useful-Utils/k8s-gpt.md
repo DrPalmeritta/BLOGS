@@ -16,9 +16,7 @@ The original version of this tool is available on GitHub project [K8s-GPT](https
 
 ## Installation
 
-To use the Kubernetes GPT Analyzer, follow these steps:
-
-Get the application on Linux/Mac via brew
+Application is avalable on Linux/Mac via brew:
 
 ```bash
 brew tap k8sgpt-ai/k8sgpt
@@ -28,10 +26,15 @@ brew install k8sgpt
 ## Examples
 
 * Currently, the default AI provider is OpenAI, you will need to generate an API key from [OpenAI](https://openai.com)
-  * You can do this by running `k8sgpt generate` to open a browser link to generate it
+  You can do this by running `k8sgpt generate` to open a browser link to generate it
+
 * Run `k8sgpt auth add` to set it in k8sgpt.
-  * You can provide the password directly using the `--password` flag.
+  You can provide the password directly using the `--password` flag.
+
 * Run `k8sgpt filters` to manage the active filters used by the analyzer. By default, all filters are executed during analysis.
+
 * Run `k8sgpt analyze` to run a scan.
+
 * And use `k8sgpt analyze --explain` to get a more detailed explanation of the issues.
+
 * You also run `k8sgpt analyze --with-doc` (with or without the explain flag) to get the official documentation from Kubernetes.
