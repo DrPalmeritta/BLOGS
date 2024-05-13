@@ -1,8 +1,8 @@
-${{\color{Goldenrod}\Huge{\textsf{ Topics data: }}}}\$
+${{\color{orange}\Huge{\textsf{ Topics data: }}}}\$
 
 <details>
 	<summary>
-	${{\color{Goldenrod}\Huge{\textsf{ If the  snapshot directory is broken, there is a recovery process }}}}\$
+	If the  snapshot directory is broken, there is a recovery process
 	</summary>
 	<br />
 `curl -XPOST localhost:9200/_snapshot/snapshots/disable` - try to disable if the snapshot entity is available
