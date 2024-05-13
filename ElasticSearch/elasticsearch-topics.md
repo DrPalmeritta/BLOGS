@@ -1,7 +1,9 @@
-## Topics data:
+${{\color{Goldenrod}\Huge{\textsf{ Topics data: }}}}\$
 
 <details>
-	<summary>If the snapshot directory is broken, there is a recovery process</summary>
+	<summary>
+	If the snapshot directory is broken, there is a recovery process
+	</summary>
 
 `curl -XPOST localhost:9200/_snapshot/snapshots/disable` - try to disable if the snapshot entity is available
 
@@ -33,7 +35,9 @@ curl -XPUT localhost:9200/_snapshot/snapshots/snapshot_daily_001 \
 </details>
 
 <details>
-	<summary>Test filling of Elasticserch base with junk data</summary>
+	<summary>
+	Test filling of Elasticserch base with junk data
+	</summary>
 
 ```bash
 curl -o us_states.ndjson https://raw.githubusercontent.com/Ego1/SampleData/main/elasticsearch/bulk_upload/us_states.ndjson 
