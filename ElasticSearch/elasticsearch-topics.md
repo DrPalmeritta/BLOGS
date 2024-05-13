@@ -1,7 +1,7 @@
 ## Topics data:
 
 <details>
-	<summary>If the snapshot directory is broken, there is a recovery process | `snapshot` `directory` `recovery`</summary>
+	<summary>If the snapshot directory is broken, there is a recovery process</summary>
 
 `curl -XPOST localhost:9200/_snapshot/snapshots/disable` - try to disable if the snapshot entity is available
 
@@ -13,17 +13,16 @@ curl -XPUT localhost:9200/_snapshot/snapshots" \
 -d '{"type": "fs","settings": {"location": "/usr/share/opensearch/data/snapshots"}}'
 ```
 
-re-create the snapshot, but we need to check that the elasticsearch config has a pointer to this directory:
+Re-create the snapshot, but we need to check that the elasticsearch config has a pointer to this directory:
 
 `/usr/share/opensearch/config/opensearch.yaml` 
 
-<aside>
-💡 the addition process is described in [Elasticsearch documentation](https://www.elastic.co/guide/en/elasticsearch/reference/current/snapshots-register-repository.html)
-</aside>
+
+💡 The addition process is described in [Elasticsearch documentation](https://www.elastic.co/guide/en/elasticsearch/reference/current/snapshots-register-repository.html)
 
 `curl -XGET localhost:9200/_snapshot/snapshots/_all?pretty` - check that the new entity matches
 
-after that you can create snapshots inside again, like this:
+After that you can create snapshots inside again, like this:
 
 ```bash
 curl -XPUT localhost:9200/_snapshot/snapshots/snapshot_daily_001 \
@@ -33,10 +32,8 @@ curl -XPUT localhost:9200/_snapshot/snapshots/snapshot_daily_001 \
 
 </details>
 
-<br />
-
 <details>
-	<summary>Test filling of Elasticserch base with junk data | `test` `junk` </summary>
+	<summary>Test filling of Elasticserch base with junk data</summary>
 
 ```bash
 curl -o us_states.ndjson https://raw.githubusercontent.com/Ego1/SampleData/main/elasticsearch/bulk_upload/us_states.ndjson 
