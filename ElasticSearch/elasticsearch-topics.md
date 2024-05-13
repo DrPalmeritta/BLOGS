@@ -53,3 +53,7 @@ curl -H "Content-Type: application/x-ndjson" \
 `curl localhost:9200/_cat/indices` - view the index being created
 
 </details>
+
+${{\color{orange}\Huge{\textsf{ Typical errors: }}}}\$
+
+`To be continued...`
