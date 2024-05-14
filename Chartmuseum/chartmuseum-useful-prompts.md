@@ -39,18 +39,3 @@
 `GET /info` - returns current ChartMuseum version
 
 `GET /health` - returns 200 OK
-
-´´´´Deprecated´´´´
-
-```Deprecated```
-
-```diff
-! test
-+ test
-- test
-# test
-@@ test @@
-```
-
-> [!IMPORTANT]
-> Key information users need to know to achieve their goal.
