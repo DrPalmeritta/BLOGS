@@ -3,15 +3,22 @@
 This is a list of my blog posts. The articles were written to help quickly find solutions to unique problems and to help with routine tasks. 
 I hope they will also be useful to you!
 
-## Full list of articles
+## Full list of articles:
 
 - ✏️ [ElasticSearch](#ElasticSearch/)
+- 📦 [Chartmuseum](#Chartmuseum/)
 - ⚙️ [Useful-Tools](#Useful-Tools/)
+- 🪄 [Useful-Utils](#Useful-Utils/)
 
 ## ElasticSearch Topics:
 
 - `PROMPTS` - [Useful prompts for troubleshooting](https://github.com/DrPalmeritta/BLOGS/blob/main/ElasticSearch/elasticsearch-useful-prompts.md)
 - `TOPICS` - [List of possible problems you may encounter](https://github.com/DrPalmeritta/BLOGS/blob/main/ElasticSearch/elasticsearch-topics.md)
+
+## Chartmuseum Topics:
+
+- `PROMPTS` - [Useful prompts for troubleshooting](https://github.com/DrPalmeritta/BLOGS/blob/main/Chartmuseum/chartmuseum-useful-prompts.md)
+- `TOPICS` - [List of possible problems you may encounter](https://github.com/DrPalmeritta/BLOGS/blob/main/Chartmuseum/chartmuseum-topics.md)
 
 ## Useful-Tools Topics:
 
