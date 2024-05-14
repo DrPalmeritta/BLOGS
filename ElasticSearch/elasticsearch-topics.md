@@ -19,8 +19,8 @@ Re-create the snapshot, but we need to check that the elasticsearch config has a
 
 `/usr/share/opensearch/config/opensearch.yaml` 
 
-
-💡 The addition process is described in [Elasticsearch documentation](https://www.elastic.co/guide/en/elasticsearch/reference/current/snapshots-register-repository.html)
+> [!IMPORTANT]
+> The addition process is described in [Elasticsearch documentation](https://www.elastic.co/guide/en/elasticsearch/reference/current/snapshots-register-repository.html)
 
 `curl -XGET localhost:9200/_snapshot/snapshots/_all?pretty` - check that the new entity matches
 
