@@ -49,7 +49,7 @@ To use colors you can use `\color` or `\textcolor`.
 
 $\textsf{{\color[rgb]{0.0, 0.0, 1.0}Yo}{\color[rgb]{0.1, 0.0, 0.9}u~ }{\color[rgb]{0.2, 0.0, 0.8}c}{\color[rgb]{0.3, 0.0, 0.7}a}{\color[rgb]{0.4, 0.0, 0.6}n~ }{\color[rgb]{0.5, 0.0, 0.5}do~ }{\color[rgb]{0.6, 0.0, 0.4}th}{\color[rgb]{0.7, 0.0, 0.3}is~ }{\color[rgb]{0.8, 0.0, 0.2}t}{\color[rgb]{0.9, 0.0, 0.1}o}{\color[rgb]{1.0, 0.0, 0.0}o}}$
 
-> Here is [Full man for LaTex & Color scheme](https://en.wikibooks.org/wiki/LaTeX/Colors)
+Here is full man for [LaTex & Color scheme](https://en.wikibooks.org/wiki/LaTeX/Colors)
 
 ## LaTex Font Sizes
 
