@@ -1,6 +1,6 @@
-## Useful prompts:
+${{\color{orange}\Huge{\textsf{ Useful prompts: }}}}\$
 
-### health-check:
+${{\color{MidnightBlue}\large{\textsf{ health-check: }}}}\$
 
 `GET _cat/allocation?v&pretty` - for problems with shards allocation + cluster helthcheck
 
@@ -8,7 +8,7 @@
 
 `GET _cat/cluster_manger?v` - lists information that helps identify the elected cluster manager node
 
-### cluster:
+${{\color{MidnightBlue}\large{\textsf{ cluster: }}}}\$
 
 `GET _cluster/health?v` - life status for all cluster nodes
 
@@ -22,7 +22,7 @@
 
 `GET _dangling?pretty` - view possible unhealthy indices with cluster indication
 
-### indices:
+${{\color{MidnightBlue}\large{\textsf{ indices: }}}}\$
 
 `GET _cat/indices` - list all indices in runtime
 
@@ -36,7 +36,7 @@
 
 `DELETE /[index_name]` - delete a specific indice
 
-### snapshots:
+${{\color{MidnightBlue}\large{\textsf{ snapshots: }}}}\$
 
 `GET _snapshot?pretty` - show list of all snapshot dir with some pretty view
 
@@ -46,7 +46,7 @@
 
 `GET _snapshot/snapshots/*?pretty&verbose=false` - same way to output snapshots, but not verbose mod
 
-### aliases:
+${{\color{MidnightBlue}\large{\textsf{ aliases: }}}}\$
 
 `GET _cat/aliases` - this output is much more convenient
 
