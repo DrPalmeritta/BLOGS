@@ -1,6 +1,6 @@
 ${{\color{orange}\Huge{\textsf{ Useful prompts: }}}}\$
 
-${{\color{blue}\large{\textsf{ helm chart repository: }}}}\$
+${{\color{MidnightBlue}\large{\textsf{ helm chart repository: }}}}\$
 
 `GET /index.yaml` - retrieved when you run `helm repo add chartmuseum http://localhost:8080/`
 
@@ -8,7 +8,7 @@ ${{\color{blue}\large{\textsf{ helm chart repository: }}}}\$
 
 `GET /charts/mychart-0.1.0.tgz.prov` - retrieved when you run `helm install` with the `-verify` flag
 
-${{\color{blue}\large{\textsf{ chart manipulation: }}}}\$
+${{\color{MidnightBlue}\large{\textsf{ chart manipulation: }}}}\$
 
 `curl -L --data-binary "@<packge-name>" <chartmuseum-url>/api/charts` - upload chart to repo
 
@@ -32,7 +32,7 @@ ${{\color{blue}\large{\textsf{ chart manipulation: }}}}\$
 
 `HEAD /api/charts/<name>/<version>` - check if chart version exists
 
-${{\color{blue}\large{\textsf{ server info: }}}}\$
+${{\color{MidnightBlue}\large{\textsf{ server info: }}}}\$
 
 `GET /` - HTML welcome page
 
