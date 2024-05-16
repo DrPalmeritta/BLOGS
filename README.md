@@ -6,6 +6,7 @@ I hope they will also be useful to you!
 ## Full list of articles:
 
 - ✏️ [ElasticSearch](#ElasticSearch/)
+- 📚 [Kibana](#Kibana/)
 - 📦 [Chartmuseum](#Chartmuseum/)
 - ⚙️ [Useful-Tools](#Useful-Tools/)
 - 🪄 [Useful-Utils](#Useful-Utils/)
@@ -14,6 +15,10 @@ I hope they will also be useful to you!
 
 - `PROMPTS` - [Useful prompts for troubleshooting](https://github.com/DrPalmeritta/BLOGS/blob/main/ElasticSearch/elasticsearch-useful-prompts.md)
 - `TOPICS` - [List of possible problems you may encounter](https://github.com/DrPalmeritta/BLOGS/blob/main/ElasticSearch/elasticsearch-topics.md)
+
+## Kibana Topics:
+
+- `TOPICS` - [List of possible problems you may encounter](https://github.com/DrPalmeritta/BLOGS/blob/main/Kibana/kibana-topics.md)
 
 ## Chartmuseum Topics:
 
