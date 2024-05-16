@@ -53,6 +53,9 @@ curl -H "Content-Type: application/x-ndjson" \
 
 </details>
 
+<br>
+<br>
+
 ${{\color{orange}\Huge{\textsf{ Typical errors: }}}}\$
 
 `To be continued...`

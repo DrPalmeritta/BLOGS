@@ -41,6 +41,9 @@ If the data flow from the agents to the index was started before the template wa
 
 </details>
 
+<br>
+<br>
+
 ${{\color{orange}\Huge{\textsf{ Typical errors: }}}}\$
 
 `To be continued...`
