@@ -67,6 +67,9 @@ curl API address with `curl -XGET x.x.x.x:8080/` - ip is ClusterIP service in k8
 
 </details>
 
+<br>
+<br>
+
 ${{\color{orange}\Huge{\textsf{ Typical errors: }}}}\$
 
 `To be continued...`
