@@ -37,7 +37,7 @@ Alias settings:
 }
 ```
 
-> If the data flow from the agents to the index was started before the template was created, the index must be deleted to apply the settings. It will be created again with new settings.
+If the data flow from the agents to the index was started before the template was created, the index must be deleted to apply the settings. It will be created again with new settings.
 
 </details>
 
