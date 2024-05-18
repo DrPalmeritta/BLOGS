@@ -1,5 +1,9 @@
 # Git-cli command pallete
 
+This page is a cheat sheet for GIT-CLI to improve interaction with git.
+
+${{\color{orange}\Huge{\textsf{ Prompts }}}}\$
+
 ${{\color{MidnightBlue}\large{\textsf{ main: }}}}\$
 
 `tag -l` - show verbose output about tags
@@ -10,7 +14,7 @@ ${{\color{MidnightBlue}\large{\textsf{ main: }}}}\$
 
 `status -s` - view the current working tree status using the short format
 
-`git pull; git submodule foreach git pull origin master` - pull in remote changes for the current repository and all its submodules
+`git pull; git submodule foreach git pull origin main` - pull in remote changes for the current repository and all its submodules
 
 `clone --recursive` - clone a repository including all submodules
 
@@ -38,14 +42,14 @@ ${{\color{MidnightBlue}\large{\textsf{ additional: }}}}\$
 
 Merge GitHub pull request on top of the `master` branch:
 ```bash
-mpr = "!f() { \
-    if [ $(printf \"%s\" \"$1\" | grep '^[0-9]\\+$' > /dev/null; printf $?) -eq 0 ]; then \
-        git fetch origin refs/pull/$1/head:pr/$1 && \
-        git rebase master pr/$1 && \
-        git checkout master && \
-        git merge pr/$1 && \
-        git branch -D pr/$1 && \
-        git commit --amend -m \"$(git log -1 --pretty=%B)\n\nCloses #$1.\"; \
-    fi \
+!f() { \
+if [ $(printf \"%s\" \"$1\" | grep '^[0-9]\\+$' > /dev/null; printf $?) -eq 0 ]; then \
+    git fetch origin refs/pull/$1/head:pr/$1 && \
+    git rebase main pr/$1 && \
+    git checkout main && \
+    git merge pr/$1 && \
+    git branch -D pr/$1 && \
+    git commit --amend -m \"$(git log -1 --pretty=%B)\n\nCloses #$1.\"; \
+fi \
 }; f"
 ```
