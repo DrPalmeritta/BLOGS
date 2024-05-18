@@ -40,7 +40,7 @@ ${{\color{MidnightBlue}\large{\textsf{ additional: }}}}\$
 
 `shortlog --summary --numbered` - list contributors with number of commits
 
-Merge GitHub pull request on top of the `master` branch:
+Merge GitHub pull request on top of the `main` branch:
 ```bash
 !f() { \
 if [ $(printf \"%s\" \"$1\" | grep '^[0-9]\\+$' > /dev/null; printf $?) -eq 0 ]; then \
