@@ -41,3 +41,11 @@ ${{\color{orange}\Huge{\textsf{ Network }}}}\$
 `curl ipinfo.io` - useful to quickly summarize localhost's net info
 
 `sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder` - terminal dns flush
+
+${{\color{MidnightBlue}\large{\textsf{ system preferences: }}}}\$
+
+`export GREP_OPTIONS='--color=auto';` - always enable colored `grep` output
+
+`export EDITOR='vim';` - make vim the default editor
+
+`export HISTCONTROL='ignoreboth';` - omit duplicates and commands that begin with a space from history

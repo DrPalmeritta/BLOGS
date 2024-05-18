@@ -5,11 +5,19 @@ I hope they will also be useful to you!
 
 ## Full list of articles:
 
+- 📝 [Command-Pallete](#Command-Pallete/)
+
+- ⚙️ [Useful-Tools](#Useful-Tools/)
+- 🪄 [Useful-Utils](#Useful-Utils/)
+
 - ✏️ [ElasticSearch](#ElasticSearch/)
 - 📚 [Kibana](#Kibana/)
 - 📦 [Chartmuseum](#Chartmuseum/)
-- ⚙️ [Useful-Tools](#Useful-Tools/)
-- 🪄 [Useful-Utils](#Useful-Utils/)
+
+## Command-Pallete Topics:
+
+- `GIT` - [Useful prompts to smoothly manage GIT-CLI](https://github.com/DrPalmeritta/BLOGS/blob/main/Command-Pallete/git-cli-pallete.md)
+- `MACOS` - [Tips to make life with macOS much easier](https://github.com/DrPalmeritta/BLOGS/blob/main/Command-Pallete/macos-pallete.md)
 
 ## ElasticSearch Topics:
 
