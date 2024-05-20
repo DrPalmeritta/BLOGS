@@ -10,6 +10,8 @@ ${{\color{MidnightBlue}\large{\textsf{ main: }}}}\$
 `branch -a` - show verbose output about branches
 `remote -v` - show verbose output about remotes
 
+`git add -A && git commit -av` - commit all changes
+
 `log --pretty=oneline -n 20 --graph --abbrev-commit` - View abbreviated SHA, description, and history graph of the latest 20 commits
 
 `status -s` - view the current working tree status using the short format
@@ -18,7 +20,6 @@ ${{\color{MidnightBlue}\large{\textsf{ main: }}}}\$
 
 `clone --recursive` - clone a repository including all submodules
 
-`git add -A && git commit -av` - commit all changes
 
 ${{\color{MidnightBlue}\large{\textsf{ additional: }}}}\$
 
