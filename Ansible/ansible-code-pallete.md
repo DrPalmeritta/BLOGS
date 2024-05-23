@@ -7,6 +7,7 @@ ${{\color{MidnightBlue}\large{\textsf{ tasks: }}}}\$
 	Examples for multi-page tasks/main.yml file
 	</summary>
 	<br />
+
 First one:
 
 	- include: example_vol1.yml
