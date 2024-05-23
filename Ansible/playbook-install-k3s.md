@@ -1,12 +1,12 @@
 # Install k3s
 
-## Description:
+${{\color{orange}\Huge{\textsf{ Description: }}}}\$
 
 Install k3s (without downloading and executing shell code with root permissions)
 
 Playbook is reachable via own [ansible-automation](https://github.com/DrPalmeritta/ansible-automation/blob/main/install-k3s.yml) repository as `install-k3s.yml`
 
-## Dependencies:
+${{\color{orange}\Huge{\textsf{ Dependencies: }}}}\$
 
 If you want to have a specific version of k3s installed, settings `k3s_version` will do that (see the example playbook below).
 
