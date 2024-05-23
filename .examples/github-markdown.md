@@ -8,6 +8,19 @@ markdown = Redcarpet.new("Hello World!")
 puts markdown.to_html
 ```
 
+## Leveling headings
+
+Main heading way is using `#` like:
+
+
+Another way for leveling headings is using `===` or `---` looks like:
+
+Example #1
+==========
+
+Example #2
+----------
+
 ## Colored text inside code block
 
 ```diff
