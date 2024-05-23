@@ -12,14 +12,19 @@ puts markdown.to_html
 
 Main heading way is using `#` like:
 
+```md
+# Example #1
+```
 
-Another way for leveling headings is using `===` or `---` looks like:
+Another one way for leveling headings is `===` or `---` usage like this:
 
-Example #1
+```md
+Example #2
 ==========
 
-Example #2
+Example #3
 ----------
+```
 
 ## Colored text inside code block
 

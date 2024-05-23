@@ -9,6 +9,7 @@ I hope they will also be useful to you!
 
 - ⚙️ [Useful-Tools](#Useful-Tools/)
 - 🪄 [Useful-Utils](#Useful-Utils/)
+- 🧾 [Ansible](#Ansible/)
 
 - ✏️ [ElasticSearch](#ElasticSearch/)
 - 📚 [Kibana](#Kibana/)
@@ -18,6 +19,12 @@ I hope they will also be useful to you!
 
 - `GIT` - [Useful prompts to smoothly manage GIT-CLI](https://github.com/DrPalmeritta/BLOGS/blob/main/Command-Pallete/git-cli-pallete.md)
 - `MACOS` - [Tips to make life with macOS much easier](https://github.com/DrPalmeritta/BLOGS/blob/main/Command-Pallete/macos-pallete.md)
+
+## Ansible Topics:
+
+- `CODE-PALLETE` - [Ansible useful prompts]](https://github.com/DrPalmeritta/BLOGS/blob/main/Ansible/ansible-code-pallete.md)
+- `PLAYBOOKS` - [Documentation described for the playbooks used in the ansible-automation repository]](https://github.com/DrPalmeritta/BLOGS/blob/main/Ansible)
+
 
 ## ElasticSearch Topics:
 
