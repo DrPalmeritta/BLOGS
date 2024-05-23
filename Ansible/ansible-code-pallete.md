@@ -7,17 +7,14 @@ ${{\color{MidnightBlue}\large{\textsf{ tasks: }}}}\$
 	Examples for multi-page tasks/main.yml file
 	</summary>
 	<br />
-	First one:
+First one:
 
-	```
 	- include: example_vol1.yml
 	- include: example_vol2.yml
 	  when: var_example_vol1 == "foo"
-	```
 
-	Another one:
+Another one:
 
-	```
 	- name: Run example_vol1.yml
 	  ansible.builtin.include_tasks: example_vol1.yml
 
@@ -31,7 +28,7 @@ ${{\color{MidnightBlue}\large{\textsf{ tasks: }}}}\$
 	  when:
 	    - var_example_vol1 == "bar"
 	    - var_example_vol2 | bool
-	```
+
 </details>
 
 ${{\color{MidnightBlue}\large{\textsf{ roles: }}}}\$
