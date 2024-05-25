@@ -6,11 +6,11 @@ I hope they will also be useful to you!
 ## Full list of articles:
 
 - 📝 [Command-Pallete](#Command-Pallete/)
-
+<br />
 - ⚙️ [Useful-Tools](#Useful-Tools/)
 - 🪄 [Useful-Utils](#Useful-Utils/)
 - 🧾 [Ansible](#Ansible/)
-
+<br />
 - ✏️ [ElasticSearch](#ElasticSearch/)
 - 📚 [Kibana](#Kibana/)
 - 📦 [Chartmuseum](#Chartmuseum/)
@@ -22,8 +22,8 @@ I hope they will also be useful to you!
 
 ## Ansible Topics:
 
-- `CODE-PALLETE` - [Ansible useful prompts]](https://github.com/DrPalmeritta/BLOGS/blob/main/Ansible/ansible-code-pallete.md)
-- `PLAYBOOKS` - [Documentation described for the playbooks used in the ansible-automation repository]](https://github.com/DrPalmeritta/BLOGS/blob/main/Ansible)
+- `CODE-PALLETE` - [Ansible useful prompts](https://github.com/DrPalmeritta/BLOGS/blob/main/Ansible/ansible-code-pallete.md)
+- `PLAYBOOKS` - [Documentation described for the playbooks used in the ansible-automation repository](https://github.com/DrPalmeritta/BLOGS/blob/main/Ansible)
 
 
 ## ElasticSearch Topics:
