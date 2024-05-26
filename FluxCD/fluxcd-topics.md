@@ -6,8 +6,8 @@ ${{\color{orange}\Huge{\textsf{ Topics data: }}}}\$
 	</summary>
 	<br />
 
-Installing and Bootstrapping Flux CLI
-Flux is a set of continuous and progressive delivery solutions for Kubernetes that are open and extensible. Here’s how you can install the Flux CLI and bootstrap it with your GitHub repository.
+> [!NOTE]
+> Flux is a set of continuous and progressive delivery solutions for Kubernetes that are open and extensible. Here’s how you can install the Flux CLI and bootstrap it with your GitHub repository.
 
 ### Install the Flux CLI
 To install the Flux CLI, you have two main options: Homebrew for macOS or a Bash script for both macOS and Linux.
@@ -70,7 +70,8 @@ By following these steps, you'll have Flux installed and bootstrapped with your 
 	</summary>
 	<br />
 
-Flux makes managing your Kubernetes resources straightforward by using declarative YAML files. Here’s how to generate GitRepository and Kustomization resource YAML files using the Flux CLI.
+> [!NOTE]
+> Flux makes managing your Kubernetes resources straightforward by using declarative YAML files. Here’s how to generate GitRepository and Kustomization resource YAML files using the Flux CLI.
 
 ### Generate GitRepository Resource YAML
 The GitRepository resource defines the source of your configuration. This example uses a repository hosted on GitHub.
@@ -87,11 +88,11 @@ flux create source git podinfo \
 
 Explanation:
 
-`podinfo` - The name of the Git source.
-`--url=https://github.com/$GITHUB_USER/podinfo-app` - The URL of the Git repository with specified user from ENV variable.
-`--branch=main` - The branch to track.
-`--interval=30s` - How often Flux should check the repository for updates.
-`--export > ./clusters/my-cluster/podinfo-source.yaml` - Exports the configuration to a YAML file.
+`podinfo` - The name of the Git source.<br />
+`--url=https://github.com/$GITHUB_USER/podinfo-app` - The URL of the Git repository with specified user from ENV variable.<br />
+`--branch=main` - The branch to track.<br />
+`--interval=30s` - How often Flux should check the repository for updates.<br />
+`--export > ./clusters/my-cluster/podinfo-source.yaml` - Exports the configuration to a YAML file.<br />
 
 ### Generate Kustomization Resource YAML
 The Kustomization resource defines how the configurations in the Git repository should be applied to the Kubernetes cluster.
@@ -110,13 +111,13 @@ flux create kustomization podinfo \
 
 Explanation:
 
-`podinfo` - The name of the Kustomization.
-`--target-namespace=default` - The Kubernetes namespace where resources should be applied.
-`--source=podinfo` - The name of the Git source defined in the previous step.
-`--path="./kustomize"` - The path within the repository to find the Kubernetes manifests.
-`--prune=true` - Ensures that resources not defined in the source are deleted.
-`--interval=5m` - How often Flux should apply the configuration.
-`--export > ./clusters/my-cluster/podinfo-kustomization.yaml` - Exports the configuration to a YAML file.
+`podinfo` - The name of the Kustomization.<br />
+`--target-namespace=default` - The Kubernetes namespace where resources should be applied.<br />
+`--source=podinfo` - The name of the Git source defined in the previous step.<br />
+`--path="./kustomize"` - The path within the repository to find the Kubernetes manifests.<br />
+`--prune=true` - Ensures that resources not defined in the source are deleted.<br />
+`--interval=5m` - How often Flux should apply the configuration.<br />
+`--export > ./clusters/my-cluster/podinfo-kustomization.yaml` - Exports the configuration to a YAML file.<br />
 
 By following these steps, you'll generate the necessary YAML files for managing your Kubernetes resources with Flux. These files can be committed to your Git repository to enable continuous deployment and automated management of your cluster resources.
 
