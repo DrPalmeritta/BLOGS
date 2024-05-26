@@ -6,11 +6,11 @@ I hope they will also be useful to you!
 ## Full list of articles:
 
 - 📝 [Command-Pallete](#Command-Pallete/)
-&NewLine;
+<br />
 - ⚙️ [Useful-Tools](#Useful-Tools/)
 - 🪄 [Useful-Utils](#Useful-Utils/)
 - 🧾 [Ansible](#Ansible/)
-&NewLine;
+<br />
 - 🗃️ [FluxCD](#FluxCD/)
 - ✏️ [ElasticSearch](#ElasticSearch/)
 - 📚 [Kibana](#Kibana/)
