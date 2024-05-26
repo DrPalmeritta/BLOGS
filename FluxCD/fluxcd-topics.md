@@ -6,7 +6,6 @@ ${{\color{orange}\Huge{\textsf{ Topics data: }}}}\$
 	</summary>
 	<br />
 
-> [!NOTE]
 > Flux is a set of continuous and progressive delivery solutions for Kubernetes that are open and extensible. Here’s how you can install the Flux CLI and bootstrap it with your GitHub repository.
 
 ### Install the Flux CLI
@@ -21,8 +20,9 @@ brew install fluxcd/tap/flux
 Using Bash (macOS and Linux):
 ```bash
 curl -s https://fluxcd.io/install.sh | sudo bash
-After installation, verify it was successful by running:
 ```
+
+After installation, verify it was successful by running:
 
 ```bash
 flux check --pre
@@ -70,7 +70,6 @@ By following these steps, you'll have Flux installed and bootstrapped with your 
 	</summary>
 	<br />
 
-> [!NOTE]
 > Flux makes managing your Kubernetes resources straightforward by using declarative YAML files. Here’s how to generate GitRepository and Kustomization resource YAML files using the Flux CLI.
 
 ### Generate GitRepository Resource YAML
