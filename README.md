@@ -6,11 +6,12 @@ I hope they will also be useful to you!
 ## Full list of articles:
 
 - 📝 [Command-Pallete](#Command-Pallete/)
-
+&nbsp;
 - ⚙️ [Useful-Tools](#Useful-Tools/)
 - 🪄 [Useful-Utils](#Useful-Utils/)
 - 🧾 [Ansible](#Ansible/)
-
+&nbsp;
+- 🗃️ [FluxCD](#FluxCD/)
 - ✏️ [ElasticSearch](#ElasticSearch/)
 - 📚 [Kibana](#Kibana/)
 - 📦 [Chartmuseum](#Chartmuseum/)
@@ -25,6 +26,10 @@ I hope they will also be useful to you!
 - `CODE-PALLETE` - [Ansible useful prompts](https://github.com/DrPalmeritta/BLOGS/blob/main/Ansible/ansible-code-pallete.md)
 - `PLAYBOOKS` - [Documentation described for the playbooks used in the ansible-automation repository](https://github.com/DrPalmeritta/BLOGS/blob/main/Ansible)
 
+## FluxCD Topics:
+
+- `PROMPTS` - [Useful prompts for troubleshooting](https://github.com/DrPalmeritta/BLOGS/blob/main/FluxCD/fluxcd-useful-prompts.md)
+- `TOPICS` - [List of possible cases & problems you may encounter](https://github.com/DrPalmeritta/BLOGS/blob/main/FluxCD/fluxcd-topics.md)
 
 ## ElasticSearch Topics:
 

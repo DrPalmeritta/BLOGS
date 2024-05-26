@@ -25,6 +25,31 @@ Example #2
 Example #3
 ----------
 ```
+## Empty spaces
+
+The non-breaking space ASCII character:
+
+```
+&nbsp;
+```
+
+HTML <(br)/> tag (able not to be closed for actual HTML5 version):
+
+```
+<br />
+```
+
+HTML Entity &NewLine:
+
+```
+&NewLine;
+```
+
+Backticks with a space inside followed by two spaces:
+
+```
+`(space)`(space)(space)
+```
 
 ## Colored text inside code block
 
