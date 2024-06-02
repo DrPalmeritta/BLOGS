@@ -50,7 +50,7 @@ flux bootstrap github \
 --owner=$GITHUB_USER \
 --repository=$GITHUB_REPO \
 --branch=main \
---path=clusters/staging
+--path=clusters/staging #OPTIONAL DUE TO FLUX-REPO STRUCTURE
 ```
 
 ### Verify Bootstrap
