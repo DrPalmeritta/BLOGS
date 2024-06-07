@@ -125,6 +125,20 @@ Here is full man for [LaTex & Color scheme](https://en.wikibooks.org/wiki/LaTeX/
 > [!CAUTION]
 > Negative potential consequences of an action.
 
+## Cells
+
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+Hello, World!]
+  }
+}
+
 ## Badges
 
 [![](https://img.shields.io/badge/github-blue?style=for-the-badge)](https://github.com/hamzamohdzubair/redant)
