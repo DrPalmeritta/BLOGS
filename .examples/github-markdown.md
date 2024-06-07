@@ -58,7 +58,7 @@ Backticks with a space inside followed by two spaces:
 + text in green
 ! text in orange
 # text in gray
---- text in purple
+---- text in purple
 @@ text in purple (and bold)@@
 ```
 
