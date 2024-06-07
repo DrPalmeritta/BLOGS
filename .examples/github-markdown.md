@@ -136,7 +136,8 @@ Here is full man for [LaTex & Color scheme](https://en.wikibooks.org/wiki/LaTeX/
    "outputs": [],
    "source": [
 Hello, World!]
-  }]
+  }
+  ]
 }
 
 ## Badges
