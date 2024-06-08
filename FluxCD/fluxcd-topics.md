@@ -121,3 +121,48 @@ Explanation:
 By following these steps, you'll generate the necessary YAML files for managing your Kubernetes resources with Flux. These files can be committed to your Git repository to enable continuous deployment and automated management of your cluster resources.
 
 </details>
+
+<details>
+	<summary>
+	Overlay Kustomization resources in Flux-like cluster structure
+	</summary>
+	<br />
+
+```bash
+fluxcd-repo-name/
+├── apps/
+│   ├── production-app/
+│   │   ├── base/
+│   │   │   ├── kustomization.yml
+│   │   │   └── deployment.yml
+│   │   └── overlays/
+│   │       ├── dev/
+│   │       │   ├── kustomization.yml
+│   │       │   └── patch.yml
+│   │       └── prod/
+│   │           ├── kustomization.yml
+│   │           └── patch.yml
+```
+
+kustomization.yml example:
+```yaml
+bases:
+  - ../../base
+patchesStrategicMerge:
+  - patch.yaml
+
+```
+
+patch.yml example:
+```yaml
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: dev
+spec:
+  replicas: 3 #rewriting for test purpose
+
+```
+
+</details>
