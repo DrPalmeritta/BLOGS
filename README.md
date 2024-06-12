@@ -10,8 +10,10 @@ I hope they will also be useful to you!
 - ⚙️ [Useful-Tools](https://github.com/DrPalmeritta/BLOGS/blob/main/Useful-Tools/)
 - 🪄 [Useful-Utils](https://github.com/DrPalmeritta/BLOGS/blob/main/Useful-Utils/)
 - 🧾 [Ansible](https://github.com/DrPalmeritta/BLOGS/blob/main/Ansible/)
+- 🧩 [Containerized-Environment](https://github.com/DrPalmeritta/BLOGS/blob/main/Containerized-Environment/)
 
 - 🗃️ [FluxCD](https://github.com/DrPalmeritta/BLOGS/blob/main/FluxCD/)
+- 🎯 [NextJS](https://github.com/DrPalmeritta/BLOGS/blob/main/NextJS/)
 - ✏️ [ElasticSearch](https://github.com/DrPalmeritta/BLOGS/blob/main/ElasticSearch/)
 - 🪪 [Keycloak](https://github.com/DrPalmeritta/BLOGS/blob/main/Keycloak/)
 - 📚 [Kibana](https://github.com/DrPalmeritta/BLOGS/blob/main/Kibana/)
@@ -22,6 +24,14 @@ I hope they will also be useful to you!
 
 - `GIT` - [Useful prompts to smoothly manage GIT-CLI](https://github.com/DrPalmeritta/BLOGS/blob/main/Command-Pallete/git-cli-pallete.md)
 - `MACOS` - [Tips to make life with macOS much easier](https://github.com/DrPalmeritta/BLOGS/blob/main/Command-Pallete/macos-pallete.md)
+
+## Containerized-Environment Topics:
+
+- `Kubernetes` - [Root page for containerized environments topics](https://github.com/DrPalmeritta/BLOGS/blob/main/Containerized-Environment/kubernetes-topics.md)
+
+## NextJS Topics:
+
+- `TOPICS` - [List of useful info or possible problems you may encounter](https://github.com/DrPalmeritta/BLOGS/blob/main/ElasticSearch/elasticsearch-topics.md)
 
 ## Ansible Topics:
 
