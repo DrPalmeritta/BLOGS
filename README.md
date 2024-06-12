@@ -5,16 +5,18 @@ I hope they will also be useful to you!
 
 ## Full list of articles:
 
-- 📝 [Command-Pallete](#Command-Pallete/)
+- 📝 [Command-Pallete](https://github.com/DrPalmeritta/BLOGS/blob/main/Command-Pallete/)
 
-- ⚙️ [Useful-Tools](#Useful-Tools/)
-- 🪄 [Useful-Utils](#Useful-Utils/)
-- 🧾 [Ansible](#Ansible/)
+- ⚙️ [Useful-Tools](https://github.com/DrPalmeritta/BLOGS/blob/main/Useful-Tools/)
+- 🪄 [Useful-Utils](https://github.com/DrPalmeritta/BLOGS/blob/main/Useful-Utils/)
+- 🧾 [Ansible](https://github.com/DrPalmeritta/BLOGS/blob/main/Ansible/)
 
-- 🗃️ [FluxCD](#FluxCD/)
-- ✏️ [ElasticSearch](#ElasticSearch/)
-- 📚 [Kibana](#Kibana/)
-- 📦 [Chartmuseum](#Chartmuseum/)
+- 🗃️ [FluxCD](https://github.com/DrPalmeritta/BLOGS/blob/main/FluxCD/)
+- ✏️ [ElasticSearch](https://github.com/DrPalmeritta/BLOGS/blob/main/ElasticSearch/)
+- 🪪 [Keycloak](https://github.com/DrPalmeritta/BLOGS/blob/main/Keycloak/)
+- 📚 [Kibana](https://github.com/DrPalmeritta/BLOGS/blob/main/Kibana/)
+- 📦 [PostgreSQL](https://github.com/DrPalmeritta/BLOGS/blob/main/PostgreSQL/)
+- 📦 [Chartmuseum](https://github.com/DrPalmeritta/BLOGS/blob/main/Chartmuseum/)
 
 ## Command-Pallete Topics:
 
@@ -28,21 +30,29 @@ I hope they will also be useful to you!
 
 ## FluxCD Topics:
 
-- `PROMPTS` - [Useful prompts for troubleshooting](https://github.com/DrPalmeritta/BLOGS/blob/main/FluxCD/fluxcd-useful-prompts.md)
+- `CLI-PROMPTS` - [Useful prompts for troubleshooting](https://github.com/DrPalmeritta/BLOGS/blob/main/FluxCD/fluxcd-useful-prompts.md)
 - `TOPICS` - [List of possible cases & problems you may encounter](https://github.com/DrPalmeritta/BLOGS/blob/main/FluxCD/fluxcd-topics.md)
 
 ## ElasticSearch Topics:
 
-- `PROMPTS` - [Useful prompts for troubleshooting](https://github.com/DrPalmeritta/BLOGS/blob/main/ElasticSearch/elasticsearch-useful-prompts.md)
+- `CLI-PROMPTS` - [Useful prompts for troubleshooting](https://github.com/DrPalmeritta/BLOGS/blob/main/ElasticSearch/elasticsearch-useful-prompts.md)
 - `TOPICS` - [List of possible problems you may encounter](https://github.com/DrPalmeritta/BLOGS/blob/main/ElasticSearch/elasticsearch-topics.md)
+
+## Keycloak Topics:
+
+- `CLI-PROMPTS` - [Useful prompts for troubleshooting](https://github.com/DrPalmeritta/BLOGS/blob/main/Keycloak/keycloak-useful-prompts.md)
 
 ## Kibana Topics:
 
 - `TOPICS` - [List of possible problems you may encounter](https://github.com/DrPalmeritta/BLOGS/blob/main/Kibana/kibana-topics.md)
 
+## PostgreSQL Topics:
+
+- `CLI-PROMPTS` - [Useful prompts for troubleshooting](https://github.com/DrPalmeritta/BLOGS/blob/main/PostgreSQL/postgresql-useful-prompts.md)
+
 ## Chartmuseum Topics:
 
-- `PROMPTS` - [Useful prompts for troubleshooting](https://github.com/DrPalmeritta/BLOGS/blob/main/Chartmuseum/chartmuseum-useful-prompts.md)
+- `CLI-PROMPTS` - [Useful prompts for troubleshooting](https://github.com/DrPalmeritta/BLOGS/blob/main/Chartmuseum/chartmuseum-useful-prompts.md)
 - `TOPICS` - [List of possible problems you may encounter](https://github.com/DrPalmeritta/BLOGS/blob/main/Chartmuseum/chartmuseum-topics.md)
 
 ## Useful-Tools Topics:
