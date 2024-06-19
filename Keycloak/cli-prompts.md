@@ -9,6 +9,8 @@ ${{\color{MidnightBlue}\large{\textsf{ cli main: }}}}\$
 
 `kcadm.sh config credentials --server http://localhost:8080/ --realm demo --user admin --client admin` - set credentials for $master realm
 
+`kcadm.sh config credentials --config /PATH/TO/HOMEDIR/keycloak/.keycloak/kcadm.config --server http://localhost:8080 --realm master --user admin` - generate config file for keycloak service
+
 `kcadm.sh create realms -s realm=demorealm -s enabled=true -o` - create realm
 
 ${{\color{MidnightBlue}\large{\textsf{ http source prompts: }}}}\$
