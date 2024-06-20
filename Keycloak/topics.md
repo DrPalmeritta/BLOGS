@@ -22,3 +22,6 @@ Setup the password for new user:<br />
 `kcadm.sh set-password -r [REALM_NAME] --username [USERNAME] --new-password [VERY_STRONG_PASSWORD]`
   
 </details>
+
+${{\color{orange}\Huge{\textsf{ Library: }}}}\$
+
