@@ -23,5 +23,8 @@ Setup the password for new user:<br />
   
 </details>
 
+<br>
+<br>
+
 ${{\color{orange}\Huge{\textsf{ Library: }}}}\$
 
