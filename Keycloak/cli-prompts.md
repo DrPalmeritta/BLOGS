@@ -1,6 +1,3 @@
->[!TIP]
->[Official Keycloak admin CLI manual page](https://wjw465150.gitbooks.io/keycloak-documentation/content/server_admin/topics/admin-cli.html)
-
 ${{\color{orange}\Huge{\textsf{ Useful prompts: }}}}\$
 
 ${{\color{MidnightBlue}\large{\textsf{ cli main: }}}}\$
