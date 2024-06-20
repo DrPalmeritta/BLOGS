@@ -2,9 +2,15 @@ ${{\color{orange}\Huge{\textsf{ Useful prompts: }}}}\$
 
 `To be continued...`
 
+<br>
+<br>
+
 ${{\color{orange}\Huge{\textsf{ Topics: }}}}\$
 
 `To be continued...`
+
+<br>
+<br>
 
 ${{\color{orange}\Huge{\textsf{ Library: }}}}\$
 
