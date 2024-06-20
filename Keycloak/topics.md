@@ -28,4 +28,4 @@ Setup the password for new user:<br />
 
 ${{\color{orange}\Huge{\textsf{ Library: }}}}\$
 
-`To be continued...`
+[Official Keycloak admin CLI manual page](https://wjw465150.gitbooks.io/keycloak-documentation/content/server_admin/topics/admin-cli.html)
