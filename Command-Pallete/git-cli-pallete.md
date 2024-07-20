@@ -20,6 +20,7 @@ ${{\color{MidnightBlue}\large{\textsf{ main: }}}}\$
 
 `clone --recursive` - clone a repository including all submodules
 
+`echo 'GITHUB_TOKEN' | docker login ghcr.io -u GITHUB_USER --password-stdin` - login to reconfigured docker registry
 
 ${{\color{MidnightBlue}\large{\textsf{ additional: }}}}\$
 
