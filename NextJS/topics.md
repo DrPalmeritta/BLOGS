@@ -18,8 +18,10 @@ Expose the app to `localhost:3000`
 ```bash
 npm run dev
 ```
-
 </details>
+
+<br>
+<br>
 
 ${{\color{orange}\Huge{\textsf{ Library: }}}}\$
 

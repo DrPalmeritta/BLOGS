@@ -1,6 +1,3 @@
->[!TIP]
->[Official Keycloak admin CLI manual page](https://wjw465150.gitbooks.io/keycloak-documentation/content/server_admin/topics/admin-cli.html)
-
 ${{\color{orange}\Huge{\textsf{ Useful prompts: }}}}\$
 
 ${{\color{MidnightBlue}\large{\textsf{ cli main: }}}}\$
@@ -8,6 +5,8 @@ ${{\color{MidnightBlue}\large{\textsf{ cli main: }}}}\$
 `kcadm.sh get realms --server http://localhost:8080/` - list all realms
 
 `kcadm.sh config credentials --server http://localhost:8080/ --realm demo --user admin --client admin` - set credentials for $master realm
+
+`kcadm.sh config credentials --config /PATH/TO/HOMEDIR/keycloak/.keycloak/kcadm.config --server http://localhost:8080 --realm master --user admin` - generate config file for keycloak service
 
 `kcadm.sh create realms -s realm=demorealm -s enabled=true -o` - create realm
 
