@@ -1,13 +1,24 @@
-${{\color{orange}\Huge{\textsf{ Useful prompts: }}}}\$
-
-`To be continued...`
-
-<br>
-<br>
-
 ${{\color{orange}\Huge{\textsf{ Topics: }}}}\$
 
-`To be continued...`
+<details>
+	<summary>
+	Create local NextJS demo app and expose port
+	</summary>
+	<br />
+
+Create a NextJS demo app via NPM cli
+
+```bash
+npx create-next-app my-next-app
+cd my-next-app
+```
+
+Expose the app to `localhost:3000`
+
+```bash
+npm run dev
+```
+</details>
 
 <br>
 <br>
