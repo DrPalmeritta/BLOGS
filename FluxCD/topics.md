@@ -165,3 +165,118 @@ spec:
 ```
 
 </details>
+
+<details>
+	<summary>
+	Sync helmRelease with given external Values.yaml template
+	</summary>
+	<br />
+
+While the support for external source references has been dropped, it is possible to work around this limitation by creating a CronJob that periodically fetches the values from an external URL and saves them to a ConfigMap or Secret resource.
+
+First, create a ServiceAccount, Role and RoleBinding capable of updating a limited set of ConfigMap resources:
+
+```yaml
+---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: values-fetcher
+  namespace: default
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+  name: configmap-updater
+  namespace: default
+rules:
+- apiGroups: [""]
+  resources: ["configmaps"]
+  # ResourceNames limits the access of the role to
+  # a defined set of ConfigMap resources
+  resourceNames: ["my-external-values"]
+  verbs: ["patch", "get"]
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: update-values-configmaps
+  namespace: default
+subjects:
+- kind: ServiceAccount
+  name: values-fetcher
+  namespace: default
+roleRef:
+  kind: Role
+  name: configmap-updater
+  apiGroup: rbac.authorization.k8s.io
+```
+
+As resourceNames scoping in the Role does not allow restricting create requests, we need to create empty placeholder(s) for the ConfigMap resource(s) that will hold the fetched values:
+
+```yaml
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: my-external-values
+  namespace: default
+data: {}
+```
+
+Lastly, create a CronJob that uses the ServiceAccount defined above, fetches the external values on an interval, and applies them to the ConfigMap:
+
+```yaml
+---
+apiVersion: batch/v1beta1
+kind: CronJob
+metadata:
+  name: fetch-external-values
+spec:
+  concurrencyPolicy: Forbid
+  schedule: "*/5 * * * *"
+  successfulJobsHistoryLimit: 3
+  failedJobsHistoryLimit: 3
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          serviceAccountName: values-fetcher
+          containers:
+          - name: kubectl
+            image: bitnami/kubectl:1.19
+            volumeMounts:
+            - mountPath: /tmp
+              name: tmp-volume
+            command:
+            - sh
+            - -c
+            args:
+            - >-
+              curl -f -# https://example.com/path/to/values.yaml -o /tmp/values.yaml &&
+              kubectl create configmap my-external-values --from-file=/tmp/values.yaml -oyaml --dry-run=client |
+              kubectl apply -f -              
+          volumes:
+          - name: tmp-volume
+            emptyDir:
+              medium: Memory
+          restartPolicy: OnFailure
+```
+
+You can now refer to the my-external-values ConfigMap resource in your HelmRelease:
+
+```yaml
+---
+apiVersion: helm.toolkit.fluxcd.io/v2
+kind: HelmRelease
+metadata:
+  name: my-release
+  namespace: default
+spec:
+  # ...omitted for brevity
+  valuesFrom:
+  - kind: ConfigMap
+    name: my-external-values
+```
+
+</details>
