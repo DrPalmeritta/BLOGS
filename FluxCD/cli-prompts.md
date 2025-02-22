@@ -21,3 +21,5 @@ ${{\color{MidnightBlue}\large{\textsf{ delete: }}}}\$
 `flux delete kustomization [source_name]` - delete specified kustomization
 
 `flux delete source git [source_name]` - delete specified source
+
+`flux uninstall --namespace=flux-system --keep-namespace` - full uninstall fluxcd manager
