@@ -7,7 +7,7 @@ I hope they will also be useful to you!
 
 - 📝 [Command-Pallete](https://github.com/DrPalmeritta/BLOGS/blob/main/Command-Pallete/)
 
-- ⚙️ [Useful-Tools](https://github.com/DrPalmeritta/BLOGS/blob/main/Useful-Tools/)
+- ⚙️ [Useful-Topics](https://github.com/DrPalmeritta/BLOGS/blob/main/Useful-Topics/)
 - 🪄 [Useful-Utils](https://github.com/DrPalmeritta/BLOGS/blob/main/Useful-Utils/)
 - 🧾 [Ansible](https://github.com/DrPalmeritta/BLOGS/blob/main/Ansible/)
 - 🧩 [Containerized-Environment](https://github.com/DrPalmeritta/BLOGS/blob/main/Containerized-Environment/)
